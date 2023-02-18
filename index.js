@@ -47,9 +47,9 @@ for (let i = 0; i < posts.length; i++) {
                     <img class="img" src="${posts[i].post}" alt="self-portrait">
                 </div>
                 <div class="btn-container container">
-                    <img class="heart-btn" id="like-btn" src="images/icon-heart.png" alt="Heart icon">
-                    <img class="comment-btn" src="images/icon-comment.png" alt="Comment icon">
-                    <img class="dm-btn" src="images/icon-dm.png" alt="DM icon">
+                    <img class="heart-btn" id="like-btn" src="icon-heart.png" alt="Heart icon">
+                    <img class="comment-btn" src="icon-comment.png" alt="Comment icon">
+                    <img class="dm-btn" src="icon-dm.png" alt="DM icon">
                 </div>
                 <div class="container">
                     <span class="likes" id="likes-el">${posts[i].likes} likes</span>
